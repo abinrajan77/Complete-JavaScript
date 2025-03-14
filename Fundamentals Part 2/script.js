@@ -63,6 +63,8 @@ const yearUntilRetirement = (birthYear, firstName) => {
 console.log(yearUntilRetirement(1997, 'Abin'));
  */
 
+
+/* 
 function cutFruitPieses(fruit){
     return fruit * 4;
 }
@@ -76,4 +78,86 @@ function fruitProcessor(apples, oranges){
     return juice;
 }
 
-console.log(fruitProcessor(2, 3));
+console.log(fruitProcessor(2, 3)); 
+*/
+
+/* 
+const friend1 = 'Nikhil';
+const friend2 = 'Akhil';
+const friend3 = 'Niyas';
+
+const friends = ['Nikhil', 'Akhil', 'Niyas'];
+console.log(friends);
+
+const years = new Array(1991, 1993, 1995);
+console.log(years);
+
+console.log(friends[0]);
+console.log(friends.length);
+ */
+
+/* const friends = ['Nikhil', 'Akhil', 'Niyas'];
+friends.push('Suhail');
+console.log(friends); */
+
+// Add elements - push() , unshift()
+// Remove elements - pop() , shift()
+// Tells the position - indexOf()
+// Know if present in array - includes()
+
+// [] -> Array
+// {} -> Object
+
+/* 
+const abin = {
+    firstName : 'Abin',
+    lastName : 'Rajan',
+    age : 2025 - 1997,
+    job : 'Software Engineer',
+    friends : ['Nihkil', 'Niyas']
+}
+
+console.log(abin);
+
+//Dot notation
+console.log(abin.firstName);
+console.log(abin.lastName);
+console.log(abin.friends);
+
+//Bracket notation
+console.log(abin['firstName']);
+console.log(abin['lastName']);
+console.log(abin['friends']);
+
+const nameKey = 'Name';
+console.log(abin['first' + nameKey]);
+
+const interestedIn = prompt('What do you want to know about abin?');
+console.log(abin[interestedIn]);
+ */
+
+/* 
+const abin = {
+    firstName : 'Abin',
+    lastName : 'Rajan',
+    birthYear : 1997,
+    job : 'Software Engineer',
+    friends : ['Nihkil', 'Niyas'],
+    hasDriverLisence : true,
+    // calcAge : function(birthYear) {
+    //     return 2025 - birthYear;
+    // }
+
+
+        calcAge : function() {
+        return 2025 - this.birthYear;
+    }
+};
+
+// console.log(abin);
+console.log(abin.calcAge()) 
+*/
+
+for(let i = 1; i<=10; i++){
+    console.log(`Lifting weight ${i}`);
+}
